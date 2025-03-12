@@ -8,11 +8,12 @@ export default function RootLayout() {
         */
         <>
             <Stack>
-                <Stack.Screen name="(tabs)" options={{headerShown: false}}/>
+                <Stack.Screen name="(example-tabs)" options={{headerShown: false}}/>
                 <Stack.Screen name="+not-found"/>
-                <Stack.Screen name="login" options={{title: 'Login'}}/>
+                <Stack.Screen name="index" options={{title: 'Login'}}/>
             </Stack>
             <StatusBar style="light" />
+
         </>
         /*
             </SQLiteProvider>

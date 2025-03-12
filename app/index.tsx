@@ -5,7 +5,7 @@ export default function LoginScreen() {
     return (
         <View style={styles.container}>
             <Text style={styles.text}>Login</Text>
-            <Link href="/" style={styles.button}>
+            <Link href="/home" style={styles.button}>
                 Login
             </Link>
         </View>
@@ -19,8 +19,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
     },
-    text: {
-        fontSize: 30,
+    text: {        fontSize: 30,
         color: '#fff',
     },
     button: {
